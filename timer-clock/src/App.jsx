@@ -24,7 +24,7 @@ function App() {
     // Decrement time every second
     const intervalId = setInterval(() => {
       if (isRunning && timeLeft > 0) {
-        setTimeLeft((prevTime) => prevTime - 1);
+        setTimeLeft((prevTime) => prevTime - 10);
       } else if (timeLeft === 0) {
         if (timerLabel === 'Session') {
           setTimerLabel('Break');
@@ -114,7 +114,7 @@ function App() {
           <button id="reset" onClick={handleReset}>&#10227;</button>
         </div>
       </div>
-      <audio id="beep" ref={audioRef} src="public/alarm.wav" />
+      <audio id="beep" ref={audioRef} src="/alarm.wav" />
     </>
   )
 }
