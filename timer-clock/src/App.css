@@ -1,0 +1,71 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.box {
+  background-color: antiquewhite;
+  height: 300px;
+  width: 400px;
+  border-radius: 10%;
+  color: rgb(79, 4, 4);
+}
+
+.length-container {
+  text-align: center;
+  width: 50%;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+.button {
+  font-size: 18px;
+  cursor: pointer;
+  background-color: rgb(58, 4, 4);
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.timer{
+  background-color: cadetblue;
+  width: 50%;
+  margin: 10px;
+  border-radius: 10%;
+}
+
+.timer-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+}
+
+.timer>h1{
+  margin: 0;
+}
+
+.timer>h3{
+  margin: 0;
+}
+
+button{
+  margin: auto;
+}
+
+.label {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.value {
+  font-size: 24px;
+}
