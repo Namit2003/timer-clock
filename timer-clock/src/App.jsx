@@ -24,7 +24,7 @@ function App() {
     // Decrement time every second
     const intervalId = setInterval(() => {
       if (isRunning && timeLeft > 0) {
-        setTimeLeft((prevTime) => prevTime - 10);
+        setTimeLeft((prevTime) => prevTime - 1);
       } else if (timeLeft === 0) {
         if (timerLabel === 'Session') {
           setTimerLabel('Break');
